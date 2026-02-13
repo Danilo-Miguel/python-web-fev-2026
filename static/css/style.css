@@ -1,0 +1,20 @@
+body{
+            font-family: Arial, sans-serif;
+            background-color: #dfb0b0;
+            color: #333;
+            font-size: 20px;
+            font-weight: 700;
+            font-style: italic;
+            text-align: center;
+            padding: 10px 10px 
+            
+        }
+            .container{
+                border: 1px solid black;
+                padding: 10px;
+                margin-top: 20px;
+            }
+
+            p{
+
+            }

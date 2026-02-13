@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de {{ username }}</title>
+
+</head>
+<body>
+    <header>
+        <h1 style="color: blue; font-size: 50px; font-family: 'Lucida Sans' ">Perfil de usuário</h1>
+    </header>
+
+    <main>
+     <h2> Olá, {{ username }}</h2>
+
+     {% if username | length > 10 %}
+     <p> Seu nome de usuário é longo</p>
+     {% else %}
+    <p> Seu nome de usuário é curto</p>
+    {% endif %}
+
+    <p> Nome em maiúsculas: {{ username | upper }}</p>
+    <p> Nome em minúsculas: {{ username | lower }}</p>
+
+    </main>
+</body>
+</html>
